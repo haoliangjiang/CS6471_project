@@ -56,14 +56,14 @@ Amazon
 
 ```
 
-### Run the code
+### Start running the code
 **With all the data ready, you can run the following notebooks to reproduce the results in our report**:
 
 * BERT_training_application_2.ipynb
 * Bagofwords2_2.ipynb
 * word2vec2_2.ipynb
 
-## BERT Model
+### BERT Model
 ![Our BERT Model](fig/BERT.JPG)
 
 ### Our results 
