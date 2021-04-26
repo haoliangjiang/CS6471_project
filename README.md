@@ -20,17 +20,12 @@ We study the country information present in online product reviews and we approa
  * We analyze the relationship between country information in review text and review helpfulness.
 
 
-
-## BERT Model
-![Our BERT Model](fig/BERT.JPG)
-
-
 ## Run the code
 ### Main Requirements
 All the codes are tested on colab, a GPU is required.
 
 ### Dataset
-You can download the raw data from [Amazon Review Dataset 2014](https://jmcauley.ucsd.edu/data/amazon/) or a new version [Amazon Review Dataset 2018](https://nijianmo.github.io/amazon/index.html) and they use the code in process_data_2.ipynb to process the data. Please note that this takes a really long time to run NER on all the data. Thus, we recommend you to download the processed data from this [googe drive](https://drive.google.com/drive/folders/1SU4qKSsWON6aDt0fGv4MVKq-AvWV_QrR?usp=sharing).
+You can download the raw data from [Amazon Review Dataset 2014](https://jmcauley.ucsd.edu/data/amazon/) or a new version [Amazon Review Dataset 2018](https://nijianmo.github.io/amazon/index.html) and then use the code in process_data_2.ipynb to process the data. Please note that this takes around a week to run NER on all the data. Thus, we recommend you to download the processed data from this [googe drive](https://drive.google.com/drive/folders/1SU4qKSsWON6aDt0fGv4MVKq-AvWV_QrR?usp=sharing).
 
 ![summary stats for the dataset](fig/stats.JPG)
 
@@ -62,11 +57,14 @@ Amazon
 ```
 
 ### Run the code
-**With all the code ready, you can run the following notebooks to reproduce the results in our report**:
+**With all the data ready, you can run the following notebooks to reproduce the results in our report**:
 
 * BERT_training_application_2.ipynb
 * Bagofwords2_2.ipynb
 * word2vec2_2.ipynb
+
+## BERT Model
+![Our BERT Model](fig/BERT.JPG)
 
 ### Our results 
 The performance of our BERT model on the annotated dataset
