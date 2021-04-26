@@ -30,7 +30,7 @@ We study the country information present in online product reviews and we approa
 All the codes are tested on colab, a GPU is required.
 
 ### Dataset
-You can download the raw data from [Amazon Review Dataset 2014](https://jmcauley.ucsd.edu/data/amazon/) or a new version [Amazon Review Dataset 2018](https://nijianmo.github.io/amazon/index.html) and they use the code in process_data_2.ipynb to process the data. Please note that this takes a really long time to run NER on all the data. Thus, we recommend you download the processed data from this [googe drive](https://drive.google.com/drive/folders/1SU4qKSsWON6aDt0fGv4MVKq-AvWV_QrR?usp=sharing).
+You can download the raw data from [Amazon Review Dataset 2014](https://jmcauley.ucsd.edu/data/amazon/) or a new version [Amazon Review Dataset 2018](https://nijianmo.github.io/amazon/index.html) and they use the code in process_data_2.ipynb to process the data. Please note that this takes a really long time to run NER on all the data. Thus, we recommend you to download the processed data from this [googe drive](https://drive.google.com/drive/folders/1SU4qKSsWON6aDt0fGv4MVKq-AvWV_QrR?usp=sharing).
 
 ![summary stats for the dataset](fig/stats.JPG)
 
@@ -68,10 +68,17 @@ Amazon
 * Bagofwords2_2.ipynb
 * word2vec2_2.ipynb
 
-### Our results
+### Our results 
+The performance of our BERT model on the annotated dataset
 ![The performance of BERT model](fig/performance.JPG)
+
+The BOW result
 ![The BOW result](fig/bow.JPG)
+
+The word2vec result
 ![The word2vec result](fig/word2vec.JPG)
+
+The t-SNE result
 ![The tsne result](fig/t-SNE_visualization.JPG)
 
 **Note**: 
