@@ -2,7 +2,7 @@
 
 ## Online Product Review with Country Information
 
-Code release (updating) for the cs6741 project **Online Product Review with Country Information**, .
+Code release (updating) for the cs6471 project **Online Product Review with Country Information**, .
 
 
 **Authors**: [Haoliang Jiang](https://haoliangjiang.github.io), [Ruiqi Zhu](richzhu1997@gmail.com), [Zexing Song](zsong91@gatech.edu).
